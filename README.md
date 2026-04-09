@@ -1,4 +1,3 @@
-[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/Npp34-o8)
 # CSC4005 – Lab 0 Starter Kit
 ## Lab 0: Environment Setup & Smoke-Test Pipeline
 
@@ -18,19 +17,14 @@ Lab 0 giúp sinh viên:
 ## Bước 1. Tạo môi trường
 ### Cách 1: dùng venv
 ```bash
-python -m venv csc4005_env
+conda create -n csc4005-dl python=3.10 -y
 ```
 
 Kích hoạt môi trường:
 
 - Windows:
 ```bash
-csc4005_env\Scripts\activate
-```
-
-- macOS / Linux:
-```bash
-source csc4005_env/bin/activate
+conda activate csc4005-dl
 ```
 
 ## Bước 2. Cài thư viện
@@ -66,11 +60,11 @@ Sinh viên nộp lại toàn bộ project sau khi đã chạy xong, bao gồm:
 - ảnh chụp màn hình terminal hoặc output thành công
 
 ## Sinh viên cần cập nhật README này
-- Họ tên:
-- MSSV:
-- Lớp:
-- Hệ điều hành:
-- Python version:
-- Torch version:
-- Thiết bị chạy: CPU / GPU
+- Họ tên: Nguyễn Văn Huy
+- MSSV: 1671040013
+- Lớp: KHMT 16-01
+- Hệ điều hành: Windows
+- Python version: 3.10
+- Torch version: 2.11.0
+- Thiết bị chạy: GPU
 - Ghi chú lỗi gặp phải khi setup (nếu có):
